@@ -1,0 +1,167 @@
+body {
+  background-color: darkgreen;
+  font-family: monospace;
+  font-size: 10pt;
+  color: white;
+}
+
+h1 {
+  font-size: 14pt;
+  margin-top: 0;
+}
+
+blockquote {
+  text-decoration: italic;
+}
+
+em {
+  background-color: yellow;
+}
+
+a {
+  color: #CC0000;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:visited {
+  color: #AA0000;
+}
+
+.item {
+  background-color: white;
+  border: solid black 1px;
+  padding: 1em;
+  margin: 1em;
+}
+
+img {
+  border: none;
+}
+
+#content {
+  width: 52em;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+.none, .none:visited, .silent {
+  text-decoration: none;
+  color: black;
+}
+
+#bookmark {
+  float: right;
+  top: 0;
+  right: 0;
+  margin: 0 .5em 0 0;
+}
+
+#icon {
+  vertical-align: text-top;
+}
+
+.date {
+  float: right;
+}
+
+.source {
+  text-align: right;
+}
+
+.tight {
+  padding: 0;
+}
+
+.inline {
+  display: inline;
+}
+
+#stack {
+  width: 800px;
+  height: 600px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  display: inline-block;
+  width: 73px;
+  height: 98px;
+  background-image: url(img/cards.gif);
+  margin: 1px;
+}
+
+.facedown {
+  background-image: url(img/background.gif);
+}
+
+.blank {
+  background-image: none;
+  border: none;
+}
+
+.ace-of-clubs   { background-position:     0px 0px; }
+.two-of-clubs   { background-position:   -73px 0px; }
+.three-of-clubs { background-position:  -146px 0px; } 
+.four-of-clubs  { background-position:  -219px 0px; } 
+.five-of-clubs  { background-position:  -292px 0px; } 
+.six-of-clubs   { background-position:  -365px 0px; } 
+.seven-of-clubs { background-position:  -438px 0px; } 
+.eight-of-clubs { background-position:  -511px 0px; } 
+.nine-of-clubs  { background-position:  -584px 0px; }    
+.ten-of-clubs   { background-position:  -657px 0px; }  
+.jack-of-clubs  { background-position:  -730px 0px; }  
+.queen-of-clubs { background-position:  -803px 0px; }  
+.king-of-clubs  { background-position:  -876px 0px; }  
+
+.ace-of-hearts   { background-position:     0px -98px; }
+.two-of-hearts   { background-position:   -73px -98px; }
+.three-of-hearts { background-position:  -146px -98px; } 
+.four-of-hearts  { background-position:  -219px -98px; } 
+.five-of-hearts  { background-position:  -292px -98px; } 
+.six-of-hearts   { background-position:  -365px -98px; } 
+.seven-of-hearts { background-position:  -438px -98px; } 
+.eight-of-hearts { background-position:  -511px -98px; } 
+.nine-of-hearts  { background-position:  -584px -98px; }    
+.ten-of-hearts   { background-position:  -657px -98px; }  
+.jack-of-hearts  { background-position:  -730px -98px; }  
+.queen-of-hearts { background-position:  -803px -98px; }  
+.king-of-hearts  { background-position:  -876px -98px; }  
+
+.ace-of-spades   { background-position:     0px -196px; }
+.two-of-spades   { background-position:   -73px -196px; }
+.three-of-spades { background-position:  -146px -196px; } 
+.four-of-spades  { background-position:  -219px -196px; } 
+.five-of-spades  { background-position:  -292px -196px; } 
+.six-of-spades   { background-position:  -365px -196px; } 
+.seven-of-spades { background-position:  -438px -196px; } 
+.eight-of-spades { background-position:  -511px -196px; } 
+.nine-of-spades  { background-position:  -584px -196px; }    
+.ten-of-spades   { background-position:  -657px -196px; }  
+.jack-of-spades  { background-position:  -730px -196px; }  
+.queen-of-spades { background-position:  -803px -196px; }  
+.king-of-spades  { background-position:  -876px -196px; }  
+
+.ace-of-diamonds   { background-position:     0px -294px; }
+.two-of-diamonds   { background-position:   -73px -294px; }
+.three-of-diamonds { background-position:  -146px -294px; } 
+.four-of-diamonds  { background-position:  -219px -294px; } 
+.five-of-diamonds  { background-position:  -292px -294px; } 
+.six-of-diamonds   { background-position:  -365px -294px; } 
+.seven-of-diamonds { background-position:  -438px -294px; } 
+.eight-of-diamonds { background-position:  -511px -294px; } 
+.nine-of-diamonds  { background-position:  -584px -294px; }    
+.ten-of-diamonds   { background-position:  -657px -294px; }  
+.jack-of-diamonds  { background-position:  -730px -294px; }  
+.queen-of-diamonds { background-position:  -803px -294px; }  
+.king-of-diamonds  { background-position:  -876px -294px; }  
+

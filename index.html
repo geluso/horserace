@@ -1,0 +1,43 @@
+<html ng-app>
+  <head>
+    <title>horse race</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/HorseRaceCtrl.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body ng-controller="HorseRaceCtrl">
+    <h1>horse race</h1>
+    <label>delay:<input type="text" size="4" ng-model="delay" /></label>
+    <button ng-click="start()">start</button>
+    <button ng-click="stop()">stop</button>
+    <button ng-click="draw()">draw</button>
+    <button ng-click="reset()">reset</button>
+    <div>
+      <div>
+        <div class="blank card"></div>
+        <div ng-repeat="i in [1,2,3,4,5,6,7,8,9]" class="facedown card"></div>
+      </div>
+      <div>
+        <div class="facedown card"></div>
+        <div ng-repeat="card in clubs" class="card {{card}}"></div>
+      </div>
+      <div>
+        <div class="facedown card"></div>
+        <div ng-repeat="card in hearts" class="card {{card}}"></div>
+      </div>
+      <div>
+        <div class="facedown card"></div>
+        <div ng-repeat="card in spades" class="card {{card}}"></div>
+      </div>
+      <div>
+        <div class="facedown card"></div>
+        <div ng-repeat="card in diamonds" class="card {{card}}"></div>
+      </div>
+    </div>
+    <div>{{announcement}}</div>
+  </body>
+</html>
